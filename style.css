@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('Styles/fonts/Sen-ExtraBold.woff2') format('woff2'),
+        url('Styles/fonts/Sen-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('Styles/fonts/Sen-Bold.woff2') format('woff2'),
+        url('Styles/fonts/Sen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sen';
+    src: url('Styles/fonts/Sen-Regular.woff2') format('woff2'),
+        url('Styles/fonts/Sen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+	font-family: 'Sen', sans-serif;
+}
+		
+header {
+	background-color: #232536;
+	padding-left: 80px;
+	padding-right: 80px;
+	height:80px;
+}
+		
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:80px;
+	width: 100%;
+}
+	
+.navbar-nav {
+	align-items: center;
+}
+	
+.nav-link {	  
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}	
+
+.header-button	{
+	background-color: #FFFFFF;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px solid #232536;
+	width: 179px;
+	height: 56px;
+	padding: 16px 48px;
+}
+
+.nav-link:hover	{
+	color:#EDC14A;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}	
+
+.header-button:hover	{
+	background-color: #EDC14A;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px ;
+	transition: all 0.3s ease;
+}
+
+.image_1 {
+	background-image: url("Styles/images/Overlay.jpg");
+	background-size: cover;
+	height:720px;
+}
+
+.main_1 p {
+	color: #FFFFFF;
+}
+	
+.main_1  div  a {
+	color:#FFD050;
+}
+	
+.main_1  div > a {
+	color: #232536
+}
+	
+.paragraph_0 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 3px;	
+}
+
+.paragraph_1 {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 64px;
+	letter-spacing: -2px;
+}
+	
+.main_1 {
+	padding:  128px 0px 0px 80px;
+}
+	
+.main1-button {
+	background-color: #FFD050;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px solid #232536;
+	margin-top: 48px;
+	width: 204px;
+	height: 56px;
+	padding: 16px 48px;
+}
+
+.main1-button:hover {
+	background-color: #EDC14A;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px solid #232536;
+	transition: all 0.3s ease;
+}
+	
+.paragraph_3 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -2px;
+	color: #232536;
+	position: absolute;
+	top: 928px
+}
+
+.paragraph_4 {
+
+	top: 1424px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top:32px;
+	color: #4C4C4C;
+}
+
+.paragraph_4 a {
+	text-decoration: none;
+}
+.img_0 {
+	display: flex;
+	justify-content: flex-start; /*выравнивание элементов в конец блока*/
+	align-items: flex-start;
+	width: 669px;
+	height: 352px;
+}
+
+.block_0 {
+	display: flex;
+	flex-direction: column; 
+	position: relative;
+	width: 733px;
+	height: 724px;
+	margin-top: 208px;
+	padding:32px;
+}
+
+.block_1 {
+	display: flex;
+	flex-direction: column; 
+	position: relative;
+	width: 733px;
+	height: 724px;
+	margin-top: 208px;
+}
+
+.paragraph_5 {
+	margin-top:16px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #232536;
+}
+
+.paragraph_6 {
+	margin-top:16px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6D6E76;
+}
+
+.main2-button {
+	background-color: #FFD050;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px solid #232536;
+	margin-top:32px;
+	width: 204px;
+	height: 56px;
+	left: 80px;
+	top: 552px;
+	padding: 16px 48px;
+}
+
+.main2-button:hover {
+	background-color: #EDC14A;
+	color:#232536;
+	font-size:18px;
+	font-weight: 700;
+	border-radius:0px;
+	border:0px solid #232536;
+	transition: all 0.3s ease
+}
+
+.paragraph_7 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -2px;
+	color: #232536;
+	position: absolute;
+	top: 928px
+}
+
+.paragraph_8 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4C4C4C;
+}
+
+.block1-button {
+	
+	width: 517px;
+	height: 181px;
+	padding:32px 116px 25px 32px;	
+}
+
+.block1-button:hover {
+	
+	width: 517px;
+	height: 181px;
+	padding:32px 116px 25px 32px;
+	background-color: #FBF6EA;	
+}
+
+.paragraph_9 {
+	display: flex;
+	justify-content: flex-start; /*выравнивание элементов в конец блока*/
+	align-items: flex-start;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4C4C4C;
+}
+
+.paragraph_10 {
+	margin-top:8px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #232536;
+}
+
+.paragraph_8 a, .paragraph_9 a {	
+	text-decoration: none;
+}
+
+.link_0 {
+	position: absolute;
+	top:939px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #592EA9;
+	text-decoration: none;
+}
+.line1 {
+	position: absolute;
+	top: 1860px;
+	height:23px;
+	width:219px;
+	
+}
+.line2 {
+	position: absolute;
+	top: 1860px;
+	height:23px;
+	width: 779px;
+	background-color: #FFD050;
+}
+.line3 {
+	position: absolute;
+	top: 1860px;
+	background-color: #592EA9;
+	height:23px;
+	width: 312px;
+}
+.block {
+	display: flex;
+	flex-direction: column; 
+	background-color: #F4F0F8;
+	position: relative;
+	top: 923px;
+	height: 500px;
+	padding:96px 80px ;
+}
+.paragraph_11 {
+	display: flex;
+	justify-content: flex-start; /*выравнивание элементов в конец блока*/
+	align-items: flex-start;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 3px;
+	color: #232536;
+	top: 1979px;
+}
+
+.paragraph_12 {
+	margin-top:24px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: -2px;
+	color: #232536;
+}
+
+.paragraph_13 {
+	margin-top:16px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6D6E76;
+}
+
+.paragraph_14 {
+	margin-top:24px;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #232536;
+}
+.main3-button {
+	margin-top:16px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	color: #592EA9;
+	text-decoration: none;
+}
